@@ -5,7 +5,7 @@
     <span
       class="text-[35px] lg:text-[56px] text-center lg:text-left font-bold w-full text-text-secondary"
     >
-      Hi, my name is <sapn class="text-text-primary">Joshua Reyes</sapn><br />
+      Hi, my name is <span class="text-text-primary">Joshua Reyes</span><br />
       a Web Developer.
     </span>
     <SlidingButton text="Know More" to="#about" variant="default" />
