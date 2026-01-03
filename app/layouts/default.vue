@@ -1,5 +1,5 @@
 <template>
-    <div class="w-full max-w-360 mx-auto">
+    <div class="w-full mx-auto bg-dark-bg">
         <slot></slot>
     </div>
 </template>
@@ -9,5 +9,4 @@
 </script>
 
 <style scoped>
-
 </style>

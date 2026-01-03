@@ -1,1 +1,29 @@
 @import "tailwindcss";
+
+@theme {
+  /* Backgrounds */
+  --color-dark-bg: #0E1117;          /* softer than pure black */
+  --color-dark-surface: #161B22;     /* clear card separation */
+  --color-dark-elevated: #1F2633;    /* highlighted sections */
+
+  /* Text */
+  --color-text-primary: #E6EDF3;     /* high readability */
+  --color-text-secondary: #B1BAC4;   /* comfortable paragraph text */
+  --color-text-muted: #8B949E;       /* meta text */
+
+  /* Accent */
+  --color-accent: #8B7CFF;           /* refined purple */
+  --color-accent-hover: #A89BFF;
+
+  /* Borders */
+  --color-border-dark: #30363D;
+
+  /* Links */
+  --color-link: #79C0FF;
+}
+
+
+html{
+  scroll-behavior: smooth;
+  background: #0E1117;
+}
