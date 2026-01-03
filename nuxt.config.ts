@@ -9,4 +9,12 @@ export default defineNuxtConfig({
   vite: {
     plugins: [tailwindcss()],
   },
+  app: {
+    head: {
+      title: 'REYVIC-DEV',
+      link: [
+        { rel: 'icon', type: 'image/jpg', href: '/assets/img/profile.jpg' }
+      ]
+    },
+  },
 });
