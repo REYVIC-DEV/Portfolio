@@ -38,19 +38,19 @@ const isReverted = computed(() => props.variant === 'reverted')
 
 const buttonBase = computed(() =>
   isReverted.value
-    ? 'bg-text-primary text-dark-bg border-text-primary'
-    : 'bg-transparent text-text-primary border-border-dark hover:border-text-primary'
+    ? 'bg-text-primary text-bg-primary border-text-primary'
+    : 'bg-transparent text-text-primary border-border hover:border-text-primary'
 )
 
 const slideBg = computed(() =>
   isReverted.value
-    ? 'bg-dark-bg'
+    ? 'bg-bg-primary'
     : 'bg-text-primary'
 )
 
 const textColor = computed(() =>
   isReverted.value
     ? 'group-hover:text-text-primary'
-    : 'group-hover:text-dark-bg'
+    : 'group-hover:text-bg-primary'
 )
 </script>

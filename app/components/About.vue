@@ -1,23 +1,22 @@
 <template>
-  <div class="w-full bg-dark-elevated text-text-primary text-center">
+  <div class="w-full bg-bg-accent text-text-primary text-center">
     <div
       id="about"
       class="max-w-360 mx-auto flex flex-col items-center w-full py-10 px-5"
     >
-      <h2 class="text-[29px] font-bold mb-11">ABOUT ME</h2>
-   <div class="flex flex-col items-center lg:flex-row lg:items-center">
+      <h2 class="text-[29px] font-bold mb-11 text-text-primary">ABOUT ME</h2>
+      <div class="flex flex-col items-center lg:flex-row lg:items-center">
+        <div class="w-full lg:w-1/2 flex justify-center">
+          <div class="size-75 lg:size-96 overflow-hidden mb-16 lg:mb-0">
+            <img
+              src="/assets/img/profile.jpg"
+              alt="Profile Picture"
+              class="h-full w-full object-cover object-[center_25%]"
+            />
+          </div>
+        </div>
 
-<div class="w-full lg:w-1/2 flex justify-center">
-  <div class="size-75 lg:size-96 overflow-hidden mb-16 lg:mb-0">
-    <img
-      src="/assets/img/profile.jpg"
-      alt="Profile Picture"
-      class="h-full w-full object-cover object-[center_25%]"
-    />
-  </div>
-</div>
-
-        <div class="flex flex-col w-[50%]">
+        <div class="flex flex-col lg:w-[50%]">
           <p class="lg:text-left mb-2.5 text-base">
             I am a Filipino web developer focused on building clean, functional,
             and responsive web applications. I enjoy turning ideas and designs

@@ -1,29 +1,21 @@
 @import "tailwindcss";
 
 @theme {
-  /* Backgrounds */
-  --color-dark-bg: #0E1117;          /* softer than pure black */
-  --color-dark-surface: #161B22;     /* clear card separation */
-  --color-dark-elevated: #1F2633;    /* highlighted sections */
-
-  /* Text */
-  --color-text-primary: #E6EDF3;     /* high readability */
-  --color-text-secondary: #B1BAC4;   /* comfortable paragraph text */
-  --color-text-muted: #8B949E;       /* meta text */
-
-  /* Accent */
-  --color-accent: #8B7CFF;           /* refined purple */
-  --color-accent-hover: #A89BFF;
-
-  /* Borders */
-  --color-border-dark: #30363D;
-
-  /* Links */
-  --color-link: #79C0FF;
+  --color-bg-primary: #FFFFFF;
+  --color-bg-secondary: #F8FAFC;
+  --color-bg-accent: #EEF2F7;
+  --color-text-primary: #0F172A;
+  --color-text-secondary: #334155;
+  --color-text-muted: #64748B;
+  --color-accent: #6D5EF6;
+  --color-accent-hover: #7C6BFA;
+  --color-border: #CBD5E1;
+  --color-link: #2563EB;
 }
 
 
-html{
+
+html {
   scroll-behavior: smooth;
-  background: #0E1117;
+  @apply bg-bg-primary;
 }

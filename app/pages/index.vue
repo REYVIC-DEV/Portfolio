@@ -2,6 +2,7 @@
     <div class="flex flex-col w-full">
         <Hero />
         <About />
+        <Projects />
     </div>
 </template>
 
