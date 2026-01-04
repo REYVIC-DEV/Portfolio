@@ -8,7 +8,7 @@
       Hi, my name is <span class="text-text-primary">Joshua Reyes</span><br />
       a Web Developer.
     </span>
-    <SlidingButton text="Know More" to="#about" variant="default" />
+    <SlidingButton text="Know More" to="#about" variant="default" type="link"/>
   </div>
 </template>
 
